@@ -65,7 +65,7 @@
 }
 
 .product__summary {
-    background: var(--color-bg2);
+    background: var(--color-primary);
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -80,11 +80,11 @@
 }
 
 .product__summary-image img {
-    filter: saturate(0);
+    filter: saturate(1);
 }
 
 .product__summary:hover img {
-    filter: saturate(1);
+    filter: saturate(0);
 }
 
 .product__summary-info * {

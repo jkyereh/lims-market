@@ -9,7 +9,7 @@
 }
 
 :root {
-    --color-primary: #0066ff;
+    --color-primary: #002fff;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -17,9 +17,10 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.7);
     --color-black: #000;
-    --color-bg: #213274;
+    --color-bg: #eaedf7;
     --color-bg1: #2e3267;
     --color-bg2: #504ee7;
+    --color-text: #040111;
     
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -35,6 +36,14 @@ body {
     line-height: 1.7;
     color: var(--color-white);
     background: var(--color-bg);
+}
+
+.text-main {
+    color: var(--color-text);
+}
+
+.p-text {
+    color: var(--color-primary);
 }
 
 .container {
@@ -92,7 +101,7 @@ img {
 }
 
 .btn:hover {
-    background: transparent;
+    background: var(--color-bg2);
     color: var(--color-white);
     border-color: var(--color-white);
 }
@@ -135,12 +144,12 @@ nav button {
 }
 
 .nav__menu a {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: var(--transition);
 }
 
 .nav__menu a:hover {
-    color: var(--color-bg2);
+    color: var(--color-danger);
 }
 
 /*header*/
@@ -166,7 +175,7 @@ header {
 
 /*categories*/
 .categories {
-    background: var(--color-bg1);
+    background: var(--color-primary);
     height: 32rem;
 }
 
@@ -195,7 +204,7 @@ header {
 }
 
 .category {
-    background: var(--color-bg2);
+    background: var(--color-white);
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
@@ -236,6 +245,7 @@ header {
     margin: 2rem 0 1rem;
     text-align: center;
     font-size: x-large;
+    color: var(--color-text);
 }
 
 .category p {
@@ -366,7 +376,7 @@ header {
 
 /*footer*/
 footer {
-    background: var(--color-bg1);
+    background: var(--color-primary);
     padding-top: 5rem;
     font-size: 0.9rem;
 }
@@ -404,7 +414,7 @@ footer ul li:hover {
     text-align: center;
     margin-top: 4rem;
     padding: 1.2rem 0;
-    border-top: 1px solid var(--color-bg2);
+    border-top: 2px solid var(--color-bg2);
 }
 
 
@@ -497,8 +507,8 @@ footer ul li:hover {
     }
 
     .nav__menu li a:hover {
-        background: var(--color-bg2);
-        color: var(--color-white);
+        background: var(--color-bg);
+        color: var(--color-primary);
     }
 
     /*header*/
