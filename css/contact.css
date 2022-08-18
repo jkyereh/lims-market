@@ -102,6 +102,7 @@ input, textarea {
         margin-top: 3rem;
         height: auto;
         padding: 1.5rem;
+        grid-template-columns: 1fr 1fr;
     }
 
     .contact__aside {
@@ -136,5 +137,9 @@ input, textarea {
 
     .form__name input[type="text"] {
         width: 100%;
+    }
+
+    .aside__image {
+        display: none;
     }
 }
