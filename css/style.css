@@ -537,25 +537,6 @@ footer ul li:hover {
         margin-right: 0;
     }
 
-    /*courses*/
-    .courses {
-        margin-top: 0;
-    }
-
-    .courses__container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    /*faqs*/
-    .faqs__container {
-        grid-template-columns: 1fr;
-    }
-
-    .faq {
-        grid-template-columns: 1fr;
-    }
- 
-
     /*footer*/
     .footer__container {
         grid-template-columns: 1fr 1fr;
@@ -603,16 +584,6 @@ footer ul li:hover {
     .category__icon {
         margin-top: 4px;
         display: inline-block;
-    }
-
-    /*popular courses*/
-    .courses__container {
-        grid-template-columns: 1fr;
-    }
-
-    /*testimonials*/
-    .testimonial__body {
-        padding: 1.2rem;
     }
 
     /*footer*/
